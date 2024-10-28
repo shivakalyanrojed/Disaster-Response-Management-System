@@ -1,0 +1,98 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Get Involved Section */
+#get-involved {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#get-involved h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#get-involved p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+/* Submit Button */
+form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #004c99;
+}
+/* Back to Home Button Styling */
+button {
+    background-color: #0066cc; /* Button color */
+    color: #fff; /* Text color */
+    padding: 0.8rem 1.5rem; /* Padding for size */
+    font-size: 1rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+/* Hover and Active Effects */
+button:hover {
+    background-color: #004c99; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+button:active {
+    background-color: #003366; /* Even darker shade on click */
+    transform: translateY(0); /* Reset position on click */
+}
